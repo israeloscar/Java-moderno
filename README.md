@@ -10,7 +10,8 @@ Iniciado em maio/2026 para conseguir o meu primeiro emprego como desenvolvedor. 
 ```
 Java-moderno/
 └── src/
-    └── OperacoesStream.java
+    ├── OperacoesStream.java
+    └── OperacoesStreamString.java
 ```
 
 ---
@@ -20,6 +21,7 @@ Java-moderno/
 | Arquivo | Descrição | Conceitos praticados |
 |---|---|---|
 | `OperacoesStream.java` | Operações com Streams e Lambdas em uma lista de números | `stream`, `filter`, `map`, `collect`, `mapToInt`, `sum`, `average`, `max`, `OptionalDouble`, `OptionalInt` |
+| `OperacoesStreamString.java` | Operações com Streams e Lambdas em uma lista de Strings | `stream`, `filter`, `map`, `sorted`, `startsWith`, `toUpperCase`, `collect` |
 
 ---
 
