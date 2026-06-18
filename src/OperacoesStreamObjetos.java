@@ -46,5 +46,22 @@ public class OperacoesStreamObjetos {
                 .map(produto -> produto.nome)
                 .toList();
         System.out.println("Nome dos produtos: " + nomeProduto);
+
+        // Stream 5. forEach com lambda.  Percorre e exibe cada produto
+        // lambda -> recebe o produto e chama o println explicitamente
+        produtos.stream()
+                .forEach(produto -> System.out.println(produto));
+
+        // Stream 6. forEach com method reference. mesma coisa que o stream 5
+        // System.out::println. atalho elegante para a lambda acima
+        // use :: quando a lambda só chama um método sem lógica extra
+        produtos.stream()
+                .forEach(System.out::println);
+
+        // Stream 7. Combina filter com forEach
+        // filtra os produtos acima de R$ 50 e exibe cada um com method reference
+        produtos.stream()
+                .filter(produto -> produto.preco > 50.00)
+                .forEach(System.out::println);
     }
 }

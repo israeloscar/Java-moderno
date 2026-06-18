@@ -25,7 +25,7 @@ Java-moderno/
 | `OperacoesStream.java` | Operações com Streams e Lambdas em uma lista de números | `stream`, `filter`, `map`, `collect`, `mapToInt`, `sum`, `average`, `max`, `OptionalDouble`, `OptionalInt` |
 | `OperacoesStreamString.java` | Operações com Streams e Lambdas em uma lista de Strings | `stream`, `filter`, `map`, `sorted`, `startsWith`, `toUpperCase`, `collect` |
 | `Produto.java` | Classe que representa um produto com nome e preço | classes, construtores, `toString` |
-| `OperacoesStreamObjetos.java` | Operações com Streams e Lambdas em uma lista de objetos | `stream`, `filter`, `sorted`, `Comparator`, `mapToDouble`, `sum`, `map`, `toList` |
+| `OperacoesStreamObjetos.java` | Operações com Streams em objetos incluindo forEach e method reference | `stream`, `filter`, `sorted`, `Comparator`, `mapToDouble`, `sum`, `map`, `toList`, `forEach`, `::` |
 
 ---
 
