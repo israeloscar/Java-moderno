@@ -13,7 +13,8 @@ Java-moderno/
     ├── OperacoesStream.java
     ├── OperacoesStreamString.java
     ├── Produto.java
-    └── OperacoesStreamObjetos.java
+    ├── OperacoesStreamObjetos.java
+    └── ExemploOptional.java
 ```
 
 ---
@@ -26,6 +27,7 @@ Java-moderno/
 | `OperacoesStreamString.java` | Operações com Streams e Lambdas em uma lista de Strings | `stream`, `filter`, `map`, `sorted`, `startsWith`, `toUpperCase`, `collect` |
 | `Produto.java` | Classe que representa um produto com nome e preço | classes, construtores, `toString` |
 | `OperacoesStreamObjetos.java` | Operações com Streams em objetos incluindo forEach e method reference | `stream`, `filter`, `sorted`, `Comparator`, `mapToDouble`, `sum`, `map`, `toList`, `forEach`, `::` |
+| `ExemploOptional.java` | Busca segura de produtos usando Optional | `Optional`, `isPresent`, `get`, `orElse`, `findFirst` |
 
 ---
 
