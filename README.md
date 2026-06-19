@@ -16,7 +16,10 @@ Java-moderno/
     ├── OperacoesStreamObjetos.java
     ├── ExemploOptional.java
     ├── CadastroComVar.java
-    └── FiltroLinguagens.java
+    ├── FiltroLinguagens.java
+    ├── PessoaRecords.java
+    ├── ProdutoRecords.java
+    └── LivroRecords.java
 ```
 
 ---
@@ -30,8 +33,11 @@ Java-moderno/
 | `Produto.java`                | Classe que representa um produto com nome e preço                     | classes, construtores, `toString`                                                                          |
 | `OperacoesStreamObjetos.java` | Operações com Streams em objetos incluindo forEach e method reference | `stream`, `filter`, `sorted`, `Comparator`, `mapToDouble`, `sum`, `map`, `toList`, `forEach`, `::`         |
 | `ExemploOptional.java`        | Busca segura de produtos usando Optional                              | `Optional`, `isPresent`, `get`, `orElse`, `findFirst`                                                      |
-| `CadastroComVar.java`         | Cadastro simples utilizando inferência de tipo local                  | `var`, inferência de tipo, `ArrayList`, `add`                                                              |
-| `FiltroLinguagens.java`       | Manipulação de lista de linguagens usando var                         | `var`, `ArrayList`, `size`, `getFirst`, `getLast`                                                          |
+| `CadastroComVar.java`         | Cadastro simples utilizando inferência de tipo local                  | `var`, inferência de tipo, `ArrayList`, `add`, `printf`                                                    |
+| `FiltroLinguagens.java`       | Manipulação de lista de linguagens utilizando var                     | `var`, `ArrayList`, `size`, `getFirst`, `getLast`                                                          |
+| `PessoaRecords.java`          | Primeiro contato com Records                                          | `record`, construtor automático, métodos de acesso, `toString`                                             |
+| `ProdutoRecords.java`         | Comparação de objetos utilizando Records                              | `record`, `equals`, `toString`, comparação por valor                                                       |
+| `LivroRecords.java`           | Prática completa com Records e var                                    | `record`, `var`, `equals`, `toString`, imutabilidade                                                       |
 
 ---
 
@@ -48,11 +54,11 @@ Java-moderno/
 
 * ✅ Streams e Lambdas
 * ✅ Optional
-* ✅ var (inferência de tipo local)
+* ✅ var
+* ✅ Records
 
 ### Próximos tópicos
 
-* ⏳ Records
 * ⏳ Switch Expressions
 * ⏳ Text Blocks
 * ⏳ SQL Básico
@@ -79,7 +85,7 @@ git clone https://github.com/israeloscar/Java-moderno.git
 
 2. Abra a pasta no IntelliJ IDEA 💡
 
-3. Navegue até o arquivo `.java` desejado e rode com `Ctrl + Shift + F10`
+3. Navegue até o arquivo `.java` desejado e execute com `Ctrl + Shift + F10`
 
 Ou pelo terminal:
 
