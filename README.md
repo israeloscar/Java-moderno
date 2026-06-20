@@ -19,7 +19,10 @@ Java-moderno/
     ├── FiltroLinguagens.java
     ├── PessoaRecords.java
     ├── ProdutoRecords.java
-    └── LivroRecords.java
+    ├── LivroRecords.java
+    ├── MenuUsuario.java
+    ├── NivelFuncionario.java
+    └── TipoDia.java
 ```
 
 ---
@@ -38,6 +41,9 @@ Java-moderno/
 | `PessoaRecords.java`          | Primeiro contato com Records                                          | `record`, construtor automático, métodos de acesso, `toString`                                             |
 | `ProdutoRecords.java`         | Comparação de objetos utilizando Records                              | `record`, `equals`, `toString`, comparação por valor                                                       |
 | `LivroRecords.java`           | Prática completa com Records e var                                    | `record`, `var`, `equals`, `toString`, imutabilidade                                                       |
+| `MenuUsuario.java`            | Primeiro contato com Switch Expressions                               | `switch expression`, `case ->`, `default`, retorno de valores                                              |
+| `NivelFuncionario.java`       | Associação de níveis e cargos utilizando Switch Expression            | `switch expression`, `var`, retorno de valores                                                             |
+| `TipoDia.java`                | Agrupamento de múltiplos casos no Switch Expression                   | `switch expression`, múltiplos `case`, `default`                                                           |
 
 ---
 
@@ -56,10 +62,10 @@ Java-moderno/
 * ✅ Optional
 * ✅ var
 * ✅ Records
+* ✅ Switch Expressions
 
 ### Próximos tópicos
 
-* ⏳ Switch Expressions
 * ⏳ Text Blocks
 * ⏳ SQL Básico
 * ⏳ JDBC
