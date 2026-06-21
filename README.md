@@ -22,7 +22,10 @@ Java-moderno/
     ├── LivroRecords.java
     ├── MenuUsuario.java
     ├── NivelFuncionario.java
-    └── TipoDia.java
+    ├── TipoDia.java
+    ├── MensagemBoasVindas.java
+    ├── PaginaHtml.java
+    └── ConsultaProdutos.java
 ```
 
 ---
@@ -44,6 +47,9 @@ Java-moderno/
 | `MenuUsuario.java`            | Primeiro contato com Switch Expressions                               | `switch expression`, `case ->`, `default`, retorno de valores                                              |
 | `NivelFuncionario.java`       | Associação de níveis e cargos utilizando Switch Expression            | `switch expression`, `var`, retorno de valores                                                             |
 | `TipoDia.java`                | Agrupamento de múltiplos casos no Switch Expression                   | `switch expression`, múltiplos `case`, `default`                                                           |
+| `MensagemBoasVindas.java`     | Primeiro contato com Text Blocks                                      | `text block`, strings multilinha, `var`                                                                    |
+| `PaginaHtml.java`             | Representação de HTML utilizando Text Blocks                          | `text block`, HTML, legibilidade                                                                           |
+| `ConsultaProdutos.java`       | Representação de consulta SQL utilizando Text Blocks                  | `text block`, SQL, strings multilinha                                                                      |
 
 ---
 
@@ -63,10 +69,10 @@ Java-moderno/
 * ✅ var
 * ✅ Records
 * ✅ Switch Expressions
+* ✅ Text Blocks
 
 ### Próximos tópicos
 
-* ⏳ Text Blocks
 * ⏳ SQL Básico
 * ⏳ JDBC
 * ⏳ Maven
