@@ -1,3 +1,5 @@
+package records;
+
 public record ProdutoRecords(
 
         // Componentes do Record.

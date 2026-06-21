@@ -1,3 +1,5 @@
+package switch_expressions;
+
 public class NivelFuncionario {
     public static void main(String[] args) {
 

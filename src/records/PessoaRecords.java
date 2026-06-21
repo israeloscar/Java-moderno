@@ -1,3 +1,5 @@
+package records;
+
 public record PessoaRecords(
 
         // Componentes do Record.

@@ -1,3 +1,5 @@
+package text_blocks;
+
 public class ConsultaProdutos {
     public static void main(String[] args) {
 

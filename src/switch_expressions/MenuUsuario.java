@@ -1,3 +1,5 @@
+package switch_expressions;
+
 public class MenuUsuario {
     public static void main(String[] args) {
 

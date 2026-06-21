@@ -1,3 +1,5 @@
+package streams;
+
 // Classe que representa um produto com nome e preço
 public class Produto {
 

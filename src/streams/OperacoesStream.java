@@ -1,3 +1,5 @@
+package streams;
+
 import java.util.List;
 import java.util.OptionalDouble;
 import java.util.OptionalInt;

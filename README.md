@@ -9,23 +9,36 @@ Iniciado em maio/2026 para conseguir o meu primeiro emprego como desenvolvedor. 
 
 ```text
 Java-moderno/
+│
+├── README.md
+│
 └── src/
-    ├── OperacoesStream.java
-    ├── OperacoesStreamString.java
-    ├── Produto.java
-    ├── OperacoesStreamObjetos.java
-    ├── ExemploOptional.java
-    ├── CadastroComVar.java
-    ├── FiltroLinguagens.java
-    ├── PessoaRecords.java
-    ├── ProdutoRecords.java
-    ├── LivroRecords.java
-    ├── MenuUsuario.java
-    ├── NivelFuncionario.java
-    ├── TipoDia.java
-    ├── MensagemBoasVindas.java
-    ├── PaginaHtml.java
-    └── ConsultaProdutos.java
+    │
+    ├── streams/
+    │   ├── OperacoesStream.java
+    │   ├── OperacoesStreamString.java
+    │   ├── Produto.java
+    │   ├── OperacoesStreamObjetos.java
+    │   └── ExemploOptional.java
+    │
+    ├── var/
+    │   ├── CadastroComVar.java
+    │   └── FiltroLinguagens.java
+    │
+    ├── records/
+    │   ├── PessoaRecords.java
+    │   ├── ProdutoRecords.java
+    │   └── LivroRecords.java
+    │
+    ├── switch_expressions/
+    │   ├── MenuUsuario.java
+    │   ├── NivelFuncionario.java
+    │   └── TipoDia.java
+    │
+    └── text_blocks/
+        ├── MensagemBoasVindas.java
+        ├── PaginaHTML.java
+        └── ConsultaProdutos.java
 ```
 
 ---

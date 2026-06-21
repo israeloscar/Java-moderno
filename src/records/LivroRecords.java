@@ -1,3 +1,5 @@
+package records;
+
 // Records são ideais para representar objetos que apenas armazenam dados.
 // O Java gera automaticamente construtor, métodos de acesso,
 // toString, equals e hashCode.
